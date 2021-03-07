@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Plugin Name: Remove jQuery
+ * Plugin Name: Remove jQuery from Theme
  * Plugin URI: https://github.com/mtoensing/remove-jquery
  * Description: Completely remove jQuery from your theme.
  * Version: 0.9

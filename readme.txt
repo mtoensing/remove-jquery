@@ -1,4 +1,4 @@
-=== Remove jQuery ===
+=== Remove jQuery from Theme ===
 Contributors: MarcDK
 Tags: jQuery
 Requires at least: 5.0
@@ -8,11 +8,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Removes jQuery from your current theme if no administrator is logged-in. jQuery will still be loaded and continue to work in you backend and when the admin toolbar is visible. 
+Removes jQuery from your frontend theme if no administrator is logged-in. jQuery will still be loaded and continue to work in you backend and when the admin toolbar is visible. 
 
 == Description ==
 
-Removes jQuery from your current theme if no administrator is logged-in. jQuery will continue to work in you backend and when the admin toolbar is visible. Plugins which depend on jQuery will not be loaded either.
+Removes jQuery from your frontend theme if no administrator is logged-in. jQuery will continue to work in you backend and when the admin toolbar is visible. Plugins which depend on jQuery will not be loaded either.
 
 == Changelog ==
 
