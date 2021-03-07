@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Remove jQuery
- * Plugin URI: https://marc.tv
+ * Plugin URI: https://github.com/mtoensing/remove-jquery
  * Description: Completely remove jQuery from your theme.
  * Version: 0.9
  * Author: Marc Tönsing
