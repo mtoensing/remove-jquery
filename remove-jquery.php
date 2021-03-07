@@ -11,7 +11,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-/* Remove jQuery From WordPress. Exept backend and when the admin toolbar is visisble */
+/* Removes jQuery From WordPress. Exept backend and when the admin toolbar is visisble */
 
 function init_without_jquery() {
     if (!is_admin() AND !is_admin_bar_showing()) {

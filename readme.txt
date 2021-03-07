@@ -8,11 +8,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Completely remove jQuery from your theme but load it in the backend and when the admin toolbar is visible. 
+Removes jQuery from your current theme if no administrator is logged-in. jQuery will still be loaded and continue to work in you backend and when the admin toolbar is visible. 
 
 == Description ==
 
-Completely remove jQuery from your theme but load it in the backend and when the admin toolbar is visible. Plugins which depend on jQuery will not be loaded either.
+Removes jQuery from your current theme if no administrator is logged-in. jQuery will continue to work in you backend and when the admin toolbar is visible. Plugins which depend on jQuery will not be loaded either.
 
 == Changelog ==
 
