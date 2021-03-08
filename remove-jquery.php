@@ -4,7 +4,7 @@
  * Plugin Name: Remove jQuery from Theme
  * Plugin URI: https://github.com/mtoensing/remove-jquery
  * Description: Completely remove jQuery from your theme.
- * Version: 0.9
+ * Version: 1.0
  * Author: Marc Tönsing
  * Author URI: https://marc.tv
  * License: GPL v2 or later
