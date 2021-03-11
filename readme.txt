@@ -14,6 +14,17 @@ Removes jQuery from your frontend theme if no administrator is logged-in. jQuery
 
 Removes jQuery from your frontend theme if no administrator is logged-in. jQuery will continue to work in you backend and when the admin toolbar is visible. Plugins which depend on jQuery will not be loaded either.
 
+This plugin does nothing more but this: 
+
+'function init_without_jquery() {
+    if (!is_admin() AND !is_admin_bar_showing()) {
+        wp_deregister_script('jquery');
+        wp_register_script('jquery', false);
+    }
+}
+
+add_action('init', 'init_without_jquery');'
+
 == Changelog ==
 
 = 1.0 =
