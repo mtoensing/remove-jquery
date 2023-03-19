@@ -14,7 +14,7 @@
 /* Removes jQuery From WordPress. Exept backend and when the admin toolbar is visisble */
 
 function init_without_jquery() {
-    if (!is_admin() AND !is_admin_bar_showing()) {
+    if (!is_admin() AND !is_admin_bar_showing() AND !$GLOBALS['pagenow'] === 'wp-login.php' ) {
         wp_deregister_script('jquery');
         wp_register_script('jquery', false);
     }
